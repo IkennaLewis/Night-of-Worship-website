@@ -86,9 +86,6 @@ h3 {
 
 
 /*******************HEADER*******************/
-.banner {
-    background: #100769;
-}
 
  .banner img {
     width: 100%;
@@ -228,18 +225,6 @@ a:hover,
 a:active {
     color: #555;
     border-bottom: 1px solid transparent;
-}
-
-/*****************PARAGRAPHS*****************/
-.long-copy {
-    line-height: 145%;
-    width: 75%;
-    margin-left: 15%;
-}
-
-.box p{
-    font-size: 90%;
-    line-height: 145%;
 }
 
 /******************BUTTONS*******************/
