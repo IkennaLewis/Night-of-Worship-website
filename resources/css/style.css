@@ -31,6 +31,10 @@ html {
     height: 0;
 }
 
+p {
+    font-size: 16px;
+}
+
 /********************************************/
 /************REUSABLE COMPONENTS*************/
 /********************************************/
@@ -80,7 +84,11 @@ h3 {
     margin-bottom: 15px;
 }
 
+
 /*******************HEADER*******************/
+.banner {
+    background: #100769;
+}
 
  .banner img {
     width: 100%;
@@ -281,9 +289,53 @@ input[type = submit]:active {
     color: #fff
 }
 
-/****************FEATURES*****************/
-.section-features .long-copy {
-    margin-bottom: 30px;
+/****************ABOUT*****************/
+
+.section-about {
+    background-color: #100769;
+    color: #fff;
+}
+
+.pull-right h3 {
+    text-align: right;
+}
+.pull-right h3:after {
+    display: block;
+    content: " ";
+    height: 2px;
+    background-color: #e1e0ec;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 10px;
+    float: right;
+}
+
+.pull-right p,.pull-left p {
+    margin-top: 30px;
+}
+
+.pull-right {
+    padding: 2.5%;
+    text-align: right;
+}
+
+.pull-left {
+    padding: 2.5%;
+    text-align: left;
+}
+
+.pull-left h3 {
+    text-align: left;
+}
+.pull-left h3:after {
+    display: block;
+    content: " ";
+    height: 2px;
+    background-color: #e1e0ec;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 10px;
+    float: left;
 }
 
 /******************MEALS*******************/
