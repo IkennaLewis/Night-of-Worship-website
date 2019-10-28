@@ -82,29 +82,12 @@ h3 {
 
 /*******************HEADER*******************/
 
-/* header {
-    background-image: url(img/hero-min.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    background-attachment: fixed;
-} */
-
-/* .hero-text-box {
-    position: absolute;
-    width: 1140px;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-}
-
-.hero-text-box h1{
-    margin-bottom: 20px;
-} */
+ .banner img {
+    width: 100%;
+} 
 
 .logo {
-    height: 100px;
+    height: 50px;
     width: auto;
     float: left;
     margin-top: 20px;
