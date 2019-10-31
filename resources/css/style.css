@@ -323,9 +323,18 @@ input[type = submit]:active {
     float: left;
 }
 
-/******************MEALS*******************/
+/******************MOZ*******************/
 .section-meals {
     padding: 0;
+}
+
+.image-row {
+    display: flex;
+}
+
+.image-row img {
+    width: 50%;
+    margin-left: 5%;
 }
 
 .meals-showcase {
