@@ -13,7 +13,7 @@
 html {
     background-color: #fff;
     color: #555;
-    font-family: 'Lato', 'Arial', 'sans-serif';
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: 300;
     text-rendering: optimizeLegibility;
@@ -32,7 +32,7 @@ html {
 }
 
 p {
-    font-size: 16px;
+    font-size: 14px;
 }
 
 /********************************************/
@@ -45,7 +45,7 @@ p {
 }
 
 section {
-    padding: 80px 0;
+    padding: 40px 0;
     overflow: hidden;
 }
 
@@ -57,7 +57,8 @@ section {
 
 h1,
 h2,
-h3 {
+h3,
+h6 {
     font-weight: 300;
     text-transform: uppercase;
 }
@@ -192,8 +193,7 @@ h3 {
 
 /******************ICONS*******************/
 .icon-big {
-    font-size: 400%;
-    color: #e67e22;
+    font-size: 70%;
     display: block;
     margin-bottom: 10px;
 }
@@ -309,6 +309,9 @@ input[type = submit]:active {
     text-align: left;
 }
 
+.pull-left p {
+    margin-bottom: 20px;
+}
 .pull-left h3 {
     text-align: left;
 }
@@ -321,6 +324,37 @@ input[type = submit]:active {
     margin: 0 auto;
     margin-top: 10px;
     float: left;
+}
+
+.section-about button {
+    padding: 15px 0px;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #545454;
+    background: #ffffff;
+    border: none;
+    width: 50%;
+    margin-top: 10px;
+}
+
+.section-about button:hover,
+.section-about button:active {
+    padding-bottom: 0;
+}
+
+.section-about button:hover:after {
+    display: block;
+    content: " ";
+    height: 2px;
+    background-color: #F5A623;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.button-group button {
+    display: block;
 }
 
 /******************MOZ*******************/
@@ -376,64 +410,54 @@ input[type = submit]:active {
     opacity: 1;
 }
 
-/******************STEPS*******************/
-.section-steps {
-    background-color: #f4f4f4;
+/******************BUS POINTS*******************/
+.section-buspoints {
+    background-color: #100769;
+    color: #fff;
 }
 
-.iPhone {
-    text-align: right;
-    padding-right: 3%;
-    margin-top: 30px; 
-}
-
-.steps-box {
-    margin-top: 70px;
-    padding-left: 3%;
-}
-
-.app-screen {
-    width: 40%;
-}
-
-.works-steps {
-    margin-bottom: 50px;
-}
-
-.last{
-    margin-bottom: 80px;
-}
-
-.app-btn:link,
-.app-btn:visited {
-    border-bottom: 0;
-}
-
-.works-steps div {
-    font-size: 150%;
-    padding: 5px;
-    float: left;
+.bus-points-header {
     text-align: center;
-    border: 2px solid #2c257b;
-    color: #2c257b;
-    display: inline-block;
-    border-radius: 50%;
-    width: 55px;
-    height: 55px;
-    margin-right: 25px;
+    margin-bottom: 20px;;
+} 
+
+.bus-points-header h2 {
+    margin-bottom: 0;
 }
 
-.app-btn img {
-    height: 50px;
-    width: auto;
-    margin-right: 10px;
+.bus-points-header span {
+    font-size: 10px;
+    color: #F5A623;;
 }
 
-/******************CITIES*******************/
-.box img {
-    width: 100%;
-    height: auto;
-    margin-bottom: 15px;
+.location {
+    text-align: center;
+    padding: 20px;
+}
+
+.address:after {
+    display: block;
+    content: " ";
+    height: 1px;
+    background-color: #4A90E2;
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.location-title {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.location span {
+    font-size: 15px;
+}
+
+/******************DOWNLOAD*******************/
+.section-download {
+    background-color: #d0021b;
+    color: #fff;
 }
 
 /***************TESTIMONIALS****************/
@@ -580,48 +604,47 @@ textarea {
 
 /****************FOOTER*****************/
 footer {
-    background-color: #333;
+    background-color: #373737;
+    color: #868787;
     padding: 50px;
-    font-size: 80%;
+    font-size: 70%;
 }
 
-.footer-nav {
-    list-style: none;
-    float: left;
+.copyright {
+    text-align: center;
+    padding: 15px;
+}
+
+footer span {
+    display: block;
+    margin-top: 10px;
 }
 
 .social-links {
     list-style: none;
-    float: right;
+    margin: 0 48%;
 }
 
-.social-links li,
-.footer-nav li {
+.social-links li {
     display: inline-block;
-    margin-right: 20px;
-    float: left;
+    margin-right: 10px;
 }
 
 .social-links li a:link {
-    font-size: 170%;
+    font-size: 100%;
 }
 
-.social-links:last-child,
-.footer-nav:last-child {
+.social-links:last-child {
     margin-right: 0;
 }
 
-.footer-nav li a:link,
-.footer-nav li a:visited,
 .social-links li a:link,
 .social-links li a:visited {
     text-decoration: none;
-    color: #888;
+    color: #868787;
     border: 0;
 }
 
-.footer-nav li a:hover,
-.footer-nav li a:active,
 .social-links li a:hover,
 .social-links li a:active {
     color: #ffffffff;
@@ -653,7 +676,7 @@ footer {
 
 footer p {
     text-align: center;
-    color: #888;
+    color: #868787;
     margin-top: 70px;
 }
 
@@ -662,11 +685,6 @@ footer p {
 /********************************************/
 /* Big tablets to 1200px (width smaller than the 1140px row) */
 @media only screen and (max-width: 1200px) {
-    .hero-text-box {
-        width: 100%;
-        padding: 0 2%;
-    }
-
     .row {padding: 0 2%;}
 }
 
@@ -674,29 +692,11 @@ footer p {
 @media only screen and (max-width: 1023px) {
     body {font-size: 18px;}
     section {padding: 60px 0;}
-    .long-copy {
-        width: 80%;
-        margin-left: 10%;
-    }
-    .steps-box {margin-top: 50px}
-    .iPhone {margin-top: 10px;}
-    .works-steps {margin-bottom: 40px;}
-    .works-steps .last {margin-bottom: 40px;}
-    .app-screen{width: 50%;}
 
     .icon-small {
         width: 17px;
         margin-right: 5px;
     }
-
-    .city-feature {font-size: 90%}
-
-    .plan-box {
-        width: 100%;
-        margin-left: 0%;
-    }
-
-    .plan-price {font-size: 250%;}
     .contact-form {width: 90%}
 }
 
@@ -706,9 +706,7 @@ footer p {
     section {padding: 30px 0;}
 
     .row,
-    .hero-text-box {padding: 0 4%;}
     .col {width: 100%; margin: 0 0 4% 0}
-    .app-screen{width: 40%;}
     .main-nav{display: none;}
     .main-nav{
         float: left;
@@ -744,21 +742,6 @@ footer p {
     h1{font-size: 180%;}
     h2 {font-size: 150%;}
 
-    .long-copy {width: 100%; margin: 0%}
-
-    .iPhone{text-align: center;}
-
-    .works-steps div {
-        width: 40px;
-        height: 40px;
-        margin-right: 15px;
-        padding: 4px;
-        font-size: 120%;
-    }
-
-    .works-steps{margin-bottom: 20px;}
-    .last{margin-bottom: 20px;}
-
     .map-box {
         width: 100%;
         height: auto;
@@ -785,25 +768,4 @@ footer p {
 @media only screen and (max-width: 480px) {
     section {padding: 25px 0;}
     .contact-form {width: 100%;}
-}
-
-
-/*****************ANIMATIONS*****************/
-.js-wp-1,
-.js-wp-2,
-.js-wp-3 {
-    opacity: 0;
-    -webkit-animation-duration: 1s;
-            animation-duration: 1s;
-}
-
-.js-wp-4 {
-    -webkit-animation-duration: 1s;
-            animation-duration: 1s;
-}
-
-.js-wp-1.animated, 
-.js-wp-2.animated,
-.js-wp-3.animated{
-    opacity: 1;
 }
